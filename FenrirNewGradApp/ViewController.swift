@@ -7,36 +7,54 @@ protocol getShopNameProtocol{
 // 構造体
 struct Shop: getShopNameProtocol{
     var shopName:String?
-    var shopLogoImage: String?
+    var shopMobileImage: String?
     var shopAddress: String?
-    var shopStationName: String?
+    var shopMobileAccess: String?
     var shopLatitude: String?
     var shopLongitude: String?
     var shopGenreName: String?
     var shopSubGenreName: String?
     var shopOpeningTime: String?
+    
+    var shopClosingTime: String?
+    var shopBudgetAmount: String?
+    var shopCapacity: String?
+    var shopCatchStatement: String?
+    var shopWebsiteUrl: String?
+    var shopid: String?
+    var shopTelephoneNumber: String?
+    
+    
 
 
-    init(_ shopName:String?, _ shopLogoImage:String?, _ shopAddress: String?, _ shopStationName: String?, _ shopLatitude: String?, _ shopLongitude: String?, _ shopGenreName: String?, _ shopSubGenreName: String?, _ shopOpeningTime: String?){
+    init(_ shopName:String?, _ shopMobileImage:String?, _ shopAddress: String?, _ shopMobileAccess: String?, _ shopLatitude: String?, _ shopLongitude: String?, _ shopGenreName: String?, _ shopSubGenreName: String?, _ shopOpeningTime: String?, _ shopClosingTime: String?, _ shopBudgetAmount: String?, _ shopCapacity: String?, _ shopCatchStatement: String?, _ shopWebsiteUrl: String?, _ shopid: String?, _ shopTelephoneNumber: String?){
         self.shopName = shopName
-        self.shopLogoImage = shopLogoImage
+        self.shopMobileImage = shopMobileImage
         self.shopAddress = shopAddress
-        self.shopStationName = shopStationName
+        self.shopMobileAccess = shopMobileAccess
         self.shopLatitude = shopLatitude
         self.shopLongitude = shopLongitude
         self.shopGenreName = shopGenreName
         self.shopOpeningTime = shopOpeningTime
         self.shopSubGenreName = shopSubGenreName
+        
+        self.shopClosingTime = shopClosingTime
+        self.shopBudgetAmount = shopBudgetAmount
+        self.shopCapacity = shopCapacity
+        self.shopCatchStatement = shopCatchStatement
+        self.shopWebsiteUrl = shopWebsiteUrl
+        self.shopid = shopid
+        self.shopTelephoneNumber = shopTelephoneNumber
     }
 
     func showName(){
-        // guardを利用したオプショナルバインディング
-        // （オプショナル型のデータをアンラップする）
+        // guardを利用したオプショナルバインディング（オプショナル型のデータをアンラップする）
+        
         guard let unwrappedName = self.shopName else{
             return
         }
         
-        guard let unwrappedLogoImage = self.shopLogoImage else{
+        guard let unwrappedLogoImage = self.shopMobileImage else{
             return
         }
 
@@ -44,7 +62,7 @@ struct Shop: getShopNameProtocol{
             return
         }
 
-        guard let unwrappedStationName = self.shopStationName else{
+        guard let unwrappedMobileAccess = self.shopMobileAccess else{
             return
         }
         
@@ -67,6 +85,37 @@ struct Shop: getShopNameProtocol{
         guard let unwrappedShopOpeningTime = self.shopOpeningTime else{
             return
         }
+        
+        guard let unwrappedCatchStatement = self.shopCatchStatement else{
+            return
+        }
+        
+        guard let unwrappedWebSiteUrl = self.shopWebsiteUrl else{
+            return
+        }
+        
+        guard let unwrappedid = self.shopid else{
+            return
+        }
+        
+        guard let unwrappedTelephoneNumber = self.shopTelephoneNumber else{
+            return
+        }
+        
+        
+        guard let unwrappedClosingTime = self.shopClosingTime else{
+            return
+        }
+        
+        guard let unwrappedBudgetAmount = self.shopBudgetAmount else{
+            return
+        }
+        
+        guard let unwrappedCapacity = self.shopCapacity else{
+            return
+        }
+        
+        
     }
 }
 
@@ -75,15 +124,9 @@ class ViewController: UIViewController, XMLParserDelegate {
     var check_title = [String]()
     var enclosure = [String]()
     var check_element = String()
-    var x = 0
-    var i = 0
-    var n = 1
-
-    var product = Shop("", "", "", "", "", "","", "", "")
+    var product = Shop("", "", "", "", "", "","", "", "","", "", "", "", "","", "")
     var shopArray = [[String]]() //全ての合計
-    var shopNameArray = [String]() //店名
-    var shopNameTestArray = [String]()
-    var shopDetailNameArray = [String]() //その他
+    var shopNameTestArray = [String]()//店名検証配列
     
     override func viewDidLoad() {
 
@@ -115,13 +158,10 @@ class ViewController: UIViewController, XMLParserDelegate {
     //解析_要素の開始時
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
 
-        //各行の<>タグの中身を読み取ってくれるすごい関数
         if elementName == "enclosure" {
             enclosure.append(attributeDict["url"]!)
-            //print(enclosure)
         }
         
-        //print(check_element)
         check_element = elementName
         
     }
@@ -132,66 +172,64 @@ class ViewController: UIViewController, XMLParserDelegate {
     
             //print(string)
             switch check_element {
-            case "name":
-                print("name" + String(n) + "：" + string)
-                n = n + 1
+            
+            case "id":
+                product.shopid = string
                 
+            case "name":
                 shopNameTestArray.append(string)
-//                if UserDefaults.standard.bool(forKey: "didShopNameEnd") == true {
-//                    shopDetailNameArray.append(string)
-//                }else{
-//                    shopNameArray.append(string)
-//                }
-//
-    
-            //2番目
-            case "logo_image":
-                product.shopLogoImage = string
-//                UserDefaults.standard.setValue(true, forKey: "didShopNameEnd")
-//                UserDefaults.standard.synchronize()
-                //print(string)
-           //3番目
+
             case "address":
                 product.shopAddress = string
-                //print(string)
-           //4番目
-            case "station_name":
-                product.shopStationName = string
-                //print(string)
-            //5/6番目
+
+            case "capacity":
+                product.shopCapacity = string
+                
+            case "mobile_access":
+                product.shopMobileAccess = string
+
             case "lat":
                 product.shopLatitude = string
-                //print(string)
+                
             case "lng":
                 product.shopLongitude = string
-               // print(string)
-            //9番目
+                
+            case "pc":
+                if UserDefaults.standard.bool(forKey: "skipCouponPcUrl") == true {
+                    UserDefaults.standard.setValue(false, forKey: "skipCouponPcUrl")
+                } else {
+                    product.shopWebsiteUrl = string
+                    UserDefaults.standard.setValue(true, forKey: "skipCouponPcUrl")
+                }
+                UserDefaults.standard.synchronize()
+
             case "open":
                 product.shopOpeningTime = string
                 
+            case "close":
+                product.shopClosingTime = string
+                
+                //店名改行バグへの対応
                 if shopNameTestArray.count > 10 {
                     let valid = shopNameTestArray.count - 10
                     print("valid：" + String(valid))
                     for i in 0...valid{
                         if i != 0{
                             shopNameTestArray[0] =  shopNameTestArray[0] + " " + shopNameTestArray[i]
-                            print(shopNameTestArray)
+                            shopNameTestArray.remove(at: i)
                         }
                     }
-                    shopNameArray.append(shopNameTestArray[0])
-                } else {
-                    shopNameArray.append(shopNameTestArray[0])
                 }
                 
+                shopArray.append([shopNameTestArray[0], shopNameTestArray[6], shopNameTestArray[7], product.shopMobileImage!, product.shopLatitude!, product.shopLongitude!, product.shopAddress!, product.shopOpeningTime!, product.shopMobileAccess!, product.shopClosingTime!, shopNameTestArray[8], product.shopCapacity!, product.shopWebsiteUrl!, product.shopid!, "",])
+                //閉店時間，予算，収容人数，キャッツ，Web，id，電話番号
                 shopNameTestArray.removeAll()
-                
-                //print(string)
-                shopArray.append([product.shopName!, product.shopGenreName!, product.shopSubGenreName!, product.shopLogoImage!, product.shopLatitude!, product.shopLongitude!, product.shopAddress!, product.shopOpeningTime!, product.shopStationName!])
+                print(shopArray)
                 print("================================")
-//                UserDefaults.standard.setValue(false, forKey: "didShopNameEnd")
-//                UserDefaults.standard.synchronize()
-            
-
+                
+            case "s":
+                product.shopMobileImage = string
+                
             default:
                 break
             }
@@ -207,60 +245,7 @@ class ViewController: UIViewController, XMLParserDelegate {
 
     //解析_終了時
     func parserDidEndDocument(_ parser: XMLParser) {
-        
-    
-        //店名に特殊文字が含まれており改行された場合に、一つの単語に繋げるための処理
-        //print(shopArray)
-        for j in 0..<shopNameArray.count {
-            if shopNameArray[j] != nil {
-                switch shopNameArray[j] {
-                case "\'":
-                    shopNameArray[j] = shopNameArray[j-1] + "\'" + shopNameArray[j+1]
-                    shopNameArray[j-1] = " "
-                    shopNameArray[j+1] = " "
-                case "&":
-                    shopNameArray[j] = shopNameArray[j-1] + "&" + shopNameArray[j+1]
-                    shopNameArray[j-1] = " "
-                    shopNameArray[j+1] = " "
-                case " ":
-                    shopNameArray[j] = shopNameArray[j-1] + " " + shopNameArray[j+1]
-                    shopNameArray[j-1] = " "
-                    shopNameArray[j+1] = " "
-                default:
-                    break
-                }
-            }
-        }
-        shopNameArray.removeAll(where: {$0 == " "})
 
-        //配列にアペンドする
-        for i in 0..<shopDetailNameArray.count {
-            if i % 9 == 4 {
-            }else if i % 9 == 5 {
-                shopArray[x][1].append(shopDetailNameArray[i])
-            }else if i % 9 == 6 {
-                shopArray[x][2].append(shopDetailNameArray[i])
-            }else if i % 9 == 0 && i / 9 >= 1{
-                x = x + 1
-            }
-        }
-        
-        
-
-        print(shopNameArray)
-        
-        for i in 0..<shopNameArray.count{
-            if i < shopArray.count {
-                shopArray[i][0].append(shopNameArray[i])
-            } else {
-                return
-            }
-        }
-
-        
-
-        //
-        
         print("Ended Xml Reading")
     }
     
