@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C730F9326AC28F000CC5907 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C730F9226AC28EF00CC5907 /* SecondViewController.swift */; };
+		1CFBA89B26A7EAA0001EA830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */; };
+		1CFBA89D26A7EAA0001EA830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */; };
+		1CFBA89F26A7EAA0001EA830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89E26A7EAA0001EA830 /* ViewController.swift */; };
+		1CFBA8A226A7EAA0001EA830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBA8A026A7EAA0001EA830 /* Main.storyboard */; };
+		1CFBA8A526A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA8A326A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodeld */; };
+		1CFBA8A726A7EAA4001EA830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBA8A626A7EAA4001EA830 /* Assets.xcassets */; };
+		1CFBA8AA26A7EAA4001EA830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBA8A826A7EAA4001EA830 /* LaunchScreen.storyboard */; };
+		1CFBA8B526A7EAA5001EA830 /* FenrirNewGradAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA8B426A7EAA5001EA830 /* FenrirNewGradAppTests.swift */; };
+		1CFBA8C026A7EAA5001EA830 /* FenrirNewGradAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA8BF26A7EAA5001EA830 /* FenrirNewGradAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CFBA8B126A7EAA5001EA830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CFBA88F26A7EAA0001EA830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CFBA89626A7EAA0001EA830;
+			remoteInfo = FenrirNewGradApp;
+		};
+		1CFBA8BC26A7EAA5001EA830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CFBA88F26A7EAA0001EA830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CFBA89626A7EAA0001EA830;
+			remoteInfo = FenrirNewGradApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C730F9226AC28EF00CC5907 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1CFBA89726A7EAA0001EA830 /* FenrirNewGradApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenrirNewGradApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1CFBA89E26A7EAA0001EA830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CFBA8A126A7EAA0001EA830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CFBA8A426A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FenrirNewGradApp.xcdatamodel; sourceTree = "<group>"; };
+		1CFBA8A626A7EAA4001EA830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CFBA8A926A7EAA4001EA830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CFBA8AB26A7EAA4001EA830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFBA8B026A7EAA5001EA830 /* FenrirNewGradAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenrirNewGradAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFBA8B426A7EAA5001EA830 /* FenrirNewGradAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenrirNewGradAppTests.swift; sourceTree = "<group>"; };
+		1CFBA8B626A7EAA5001EA830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFBA8BB26A7EAA5001EA830 /* FenrirNewGradAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenrirNewGradAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFBA8BF26A7EAA5001EA830 /* FenrirNewGradAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenrirNewGradAppUITests.swift; sourceTree = "<group>"; };
+		1CFBA8C126A7EAA5001EA830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CFBA89426A7EAA0001EA830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFBA8AD26A7EAA5001EA830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFBA8B826A7EAA5001EA830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CFBA88E26A7EAA0001EA830 = {
+			isa = PBXGroup;
+			children = (
+				1CFBA89926A7EAA0001EA830 /* FenrirNewGradApp */,
+				1CFBA8B326A7EAA5001EA830 /* FenrirNewGradAppTests */,
+				1CFBA8BE26A7EAA5001EA830 /* FenrirNewGradAppUITests */,
+				1CFBA89826A7EAA0001EA830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CFBA89826A7EAA0001EA830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CFBA89726A7EAA0001EA830 /* FenrirNewGradApp.app */,
+				1CFBA8B026A7EAA5001EA830 /* FenrirNewGradAppTests.xctest */,
+				1CFBA8BB26A7EAA5001EA830 /* FenrirNewGradAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CFBA89926A7EAA0001EA830 /* FenrirNewGradApp */ = {
+			isa = PBXGroup;
+			children = (
+				1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */,
+				1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */,
+				1CFBA89E26A7EAA0001EA830 /* ViewController.swift */,
+				1C730F9226AC28EF00CC5907 /* SecondViewController.swift */,
+				1CFBA8A026A7EAA0001EA830 /* Main.storyboard */,
+				1CFBA8A626A7EAA4001EA830 /* Assets.xcassets */,
+				1CFBA8A826A7EAA4001EA830 /* LaunchScreen.storyboard */,
+				1CFBA8AB26A7EAA4001EA830 /* Info.plist */,
+				1CFBA8A326A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodeld */,
+			);
+			path = FenrirNewGradApp;
+			sourceTree = "<group>";
+		};
+		1CFBA8B326A7EAA5001EA830 /* FenrirNewGradAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CFBA8B426A7EAA5001EA830 /* FenrirNewGradAppTests.swift */,
+				1CFBA8B626A7EAA5001EA830 /* Info.plist */,
+			);
+			path = FenrirNewGradAppTests;
+			sourceTree = "<group>";
+		};
+		1CFBA8BE26A7EAA5001EA830 /* FenrirNewGradAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CFBA8BF26A7EAA5001EA830 /* FenrirNewGradAppUITests.swift */,
+				1CFBA8C126A7EAA5001EA830 /* Info.plist */,
+			);
+			path = FenrirNewGradAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CFBA89626A7EAA0001EA830 /* FenrirNewGradApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFBA8C426A7EAA5001EA830 /* Build configuration list for PBXNativeTarget "FenrirNewGradApp" */;
+			buildPhases = (
+				1CFBA89326A7EAA0001EA830 /* Sources */,
+				1CFBA89426A7EAA0001EA830 /* Frameworks */,
+				1CFBA89526A7EAA0001EA830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FenrirNewGradApp;
+			productName = FenrirNewGradApp;
+			productReference = 1CFBA89726A7EAA0001EA830 /* FenrirNewGradApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CFBA8AF26A7EAA5001EA830 /* FenrirNewGradAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFBA8C726A7EAA5001EA830 /* Build configuration list for PBXNativeTarget "FenrirNewGradAppTests" */;
+			buildPhases = (
+				1CFBA8AC26A7EAA5001EA830 /* Sources */,
+				1CFBA8AD26A7EAA5001EA830 /* Frameworks */,
+				1CFBA8AE26A7EAA5001EA830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFBA8B226A7EAA5001EA830 /* PBXTargetDependency */,
+			);
+			name = FenrirNewGradAppTests;
+			productName = FenrirNewGradAppTests;
+			productReference = 1CFBA8B026A7EAA5001EA830 /* FenrirNewGradAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CFBA8BA26A7EAA5001EA830 /* FenrirNewGradAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFBA8CA26A7EAA5001EA830 /* Build configuration list for PBXNativeTarget "FenrirNewGradAppUITests" */;
+			buildPhases = (
+				1CFBA8B726A7EAA5001EA830 /* Sources */,
+				1CFBA8B826A7EAA5001EA830 /* Frameworks */,
+				1CFBA8B926A7EAA5001EA830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFBA8BD26A7EAA5001EA830 /* PBXTargetDependency */,
+			);
+			name = FenrirNewGradAppUITests;
+			productName = FenrirNewGradAppUITests;
+			productReference = 1CFBA8BB26A7EAA5001EA830 /* FenrirNewGradAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CFBA88F26A7EAA0001EA830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1CFBA89626A7EAA0001EA830 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1CFBA8AF26A7EAA5001EA830 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1CFBA89626A7EAA0001EA830;
+					};
+					1CFBA8BA26A7EAA5001EA830 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1CFBA89626A7EAA0001EA830;
+					};
+				};
+			};
+			buildConfigurationList = 1CFBA89226A7EAA0001EA830 /* Build configuration list for PBXProject "FenrirNewGradApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CFBA88E26A7EAA0001EA830;
+			productRefGroup = 1CFBA89826A7EAA0001EA830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CFBA89626A7EAA0001EA830 /* FenrirNewGradApp */,
+				1CFBA8AF26A7EAA5001EA830 /* FenrirNewGradAppTests */,
+				1CFBA8BA26A7EAA5001EA830 /* FenrirNewGradAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CFBA89526A7EAA0001EA830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFBA8AA26A7EAA4001EA830 /* LaunchScreen.storyboard in Resources */,
+				1CFBA8A726A7EAA4001EA830 /* Assets.xcassets in Resources */,
+				1CFBA8A226A7EAA0001EA830 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFBA8AE26A7EAA5001EA830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFBA8B926A7EAA5001EA830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CFBA89326A7EAA0001EA830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFBA8A526A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodeld in Sources */,
+				1CFBA89F26A7EAA0001EA830 /* ViewController.swift in Sources */,
+				1CFBA89B26A7EAA0001EA830 /* AppDelegate.swift in Sources */,
+				1C730F9326AC28F000CC5907 /* SecondViewController.swift in Sources */,
+				1CFBA89D26A7EAA0001EA830 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFBA8AC26A7EAA5001EA830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFBA8B526A7EAA5001EA830 /* FenrirNewGradAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFBA8B726A7EAA5001EA830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFBA8C026A7EAA5001EA830 /* FenrirNewGradAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CFBA8B226A7EAA5001EA830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CFBA89626A7EAA0001EA830 /* FenrirNewGradApp */;
+			targetProxy = 1CFBA8B126A7EAA5001EA830 /* PBXContainerItemProxy */;
+		};
+		1CFBA8BD26A7EAA5001EA830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CFBA89626A7EAA0001EA830 /* FenrirNewGradApp */;
+			targetProxy = 1CFBA8BC26A7EAA5001EA830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CFBA8A026A7EAA0001EA830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFBA8A126A7EAA0001EA830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CFBA8A826A7EAA4001EA830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFBA8A926A7EAA4001EA830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CFBA8C226A7EAA5001EA830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CFBA8C326A7EAA5001EA830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CFBA8C526A7EAA5001EA830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27UFW2M9H8;
+				INFOPLIST_FILE = FenrirNewGradApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShumpeiHoriuchi.FenrirNewGradApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CFBA8C626A7EAA5001EA830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27UFW2M9H8;
+				INFOPLIST_FILE = FenrirNewGradApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShumpeiHoriuchi.FenrirNewGradApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CFBA8C826A7EAA5001EA830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27UFW2M9H8;
+				INFOPLIST_FILE = FenrirNewGradAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShumpeiHoriuchi.FenrirNewGradAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FenrirNewGradApp.app/FenrirNewGradApp";
+			};
+			name = Debug;
+		};
+		1CFBA8C926A7EAA5001EA830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27UFW2M9H8;
+				INFOPLIST_FILE = FenrirNewGradAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShumpeiHoriuchi.FenrirNewGradAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FenrirNewGradApp.app/FenrirNewGradApp";
+			};
+			name = Release;
+		};
+		1CFBA8CB26A7EAA5001EA830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27UFW2M9H8;
+				INFOPLIST_FILE = FenrirNewGradAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShumpeiHoriuchi.FenrirNewGradAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FenrirNewGradApp;
+			};
+			name = Debug;
+		};
+		1CFBA8CC26A7EAA5001EA830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27UFW2M9H8;
+				INFOPLIST_FILE = FenrirNewGradAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShumpeiHoriuchi.FenrirNewGradAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FenrirNewGradApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CFBA89226A7EAA0001EA830 /* Build configuration list for PBXProject "FenrirNewGradApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFBA8C226A7EAA5001EA830 /* Debug */,
+				1CFBA8C326A7EAA5001EA830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFBA8C426A7EAA5001EA830 /* Build configuration list for PBXNativeTarget "FenrirNewGradApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFBA8C526A7EAA5001EA830 /* Debug */,
+				1CFBA8C626A7EAA5001EA830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFBA8C726A7EAA5001EA830 /* Build configuration list for PBXNativeTarget "FenrirNewGradAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFBA8C826A7EAA5001EA830 /* Debug */,
+				1CFBA8C926A7EAA5001EA830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFBA8CA26A7EAA5001EA830 /* Build configuration list for PBXNativeTarget "FenrirNewGradAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFBA8CB26A7EAA5001EA830 /* Debug */,
+				1CFBA8CC26A7EAA5001EA830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CFBA8A326A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CFBA8A426A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodel */,
+			);
+			currentVersion = 1CFBA8A426A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodel */;
+			path = FenrirNewGradApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1CFBA88F26A7EAA0001EA830 /* Project object */;
+}
