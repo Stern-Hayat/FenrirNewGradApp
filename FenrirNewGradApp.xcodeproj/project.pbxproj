@@ -8,6 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		1C730F9326AC28F000CC5907 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C730F9226AC28EF00CC5907 /* SecondViewController.swift */; };
+		1C730FA726B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */; };
+		1C730FA826B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */; };
+		1C730FA926B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */; };
+		1C730FAA26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */; };
+		1C730FAB26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */; };
+		1C730FAC26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */; };
+		1C730FAD26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */; };
+		1C730FAE26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */; };
+		1C730FAF26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */; };
+		1C730FB026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */; };
+		1C730FB126B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */; };
+		1C730FB226B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */; };
+		1C730FB326B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */; };
+		1C730FB426B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */; };
+		1C730FB526B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */; };
+		1C730FB626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */; };
+		1C730FB726B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */; };
+		1C730FB826B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */; };
+		1C730FB926B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */; };
+		1C730FBA26B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */; };
+		1C730FBB26B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */; };
+		1C730FBC26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */; };
+		1C730FBD26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */; };
+		1C730FBE26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */; };
+		1C730FBF26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */; };
+		1C730FC026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */; };
+		1C730FC126B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */; };
+		1C730FC226B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */; };
+		1C730FC326B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */; };
+		1C730FC426B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */; };
+		1C730FC526B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */; };
+		1C730FC626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */; };
+		1C730FC726B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */; };
+		1C730FC826B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */; };
+		1C730FC926B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */; };
+		1C730FCA26B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */; };
+		1C730FCB26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */; };
+		1C730FCC26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */; };
+		1C730FCD26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */; };
+		1C730FCE26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */; };
+		1C730FCF26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */; };
+		1C730FD026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */; };
+		1C730FD126B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */; };
+		1C730FD226B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */; };
+		1C730FD326B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */; };
+		1C730FD426B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */; };
+		1C730FD526B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */; };
+		1C730FD626B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */; };
+		1C730FD726B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */; };
+		1C730FD826B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */; };
+		1C730FD926B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */; };
+		1C730FDA26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */; };
+		1C730FDB26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */; };
+		1C730FDC26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */; };
 		1CFBA89B26A7EAA0001EA830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */; };
 		1CFBA89D26A7EAA0001EA830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */; };
 		1CFBA89F26A7EAA0001EA830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89E26A7EAA0001EA830 /* ViewController.swift */; };
@@ -38,6 +92,24 @@
 
 /* Begin PBXFileReference section */
 		1C730F9226AC28EF00CC5907 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-04M.TTF"; sourceTree = "<group>"; };
+		1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-05M.TTF"; sourceTree = "<group>"; };
+		1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-06M.TTF"; sourceTree = "<group>"; };
+		1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-03M.TTF"; sourceTree = "<group>"; };
+		1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-06M.TTF"; sourceTree = "<group>"; };
+		1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-02M.TTF"; sourceTree = "<group>"; };
+		1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-07M.TTF"; sourceTree = "<group>"; };
+		1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-09M.TTF"; sourceTree = "<group>"; };
+		1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-04M.TTF"; sourceTree = "<group>"; };
+		1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-05M.TTF"; sourceTree = "<group>"; };
+		1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-07M.TTF"; sourceTree = "<group>"; };
+		1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-02M.TTF"; sourceTree = "<group>"; };
+		1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-09M.TTF"; sourceTree = "<group>"; };
+		1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-01M.TTF"; sourceTree = "<group>"; };
+		1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-01M.TTF"; sourceTree = "<group>"; };
+		1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-03M.TTF"; sourceTree = "<group>"; };
+		1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-08M.TTF"; sourceTree = "<group>"; };
+		1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-08M.TTF"; sourceTree = "<group>"; };
 		1CFBA89726A7EAA0001EA830 /* FenrirNewGradApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenrirNewGradApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,9 +152,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C730F9426B2631900CC5907 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */,
+				1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */,
+				1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */,
+				1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */,
+				1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */,
+				1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */,
+				1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */,
+				1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */,
+				1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */,
+				1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */,
+				1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */,
+				1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */,
+				1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */,
+				1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */,
+				1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */,
+				1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */,
+				1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */,
+				1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		1CFBA88E26A7EAA0001EA830 = {
 			isa = PBXGroup;
 			children = (
+				1C730F9426B2631900CC5907 /* fonts */,
 				1CFBA89926A7EAA0001EA830 /* FenrirNewGradApp */,
 				1CFBA8B326A7EAA5001EA830 /* FenrirNewGradAppTests */,
 				1CFBA8BE26A7EAA5001EA830 /* FenrirNewGradAppUITests */,
@@ -237,9 +335,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C730FB626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */,
+				1C730FA726B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */,
 				1CFBA8AA26A7EAA4001EA830 /* LaunchScreen.storyboard in Resources */,
+				1C730FD126B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */,
+				1C730FD726B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */,
+				1C730FC226B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */,
 				1CFBA8A726A7EAA4001EA830 /* Assets.xcassets in Resources */,
+				1C730FB326B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */,
+				1C730FCB26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */,
+				1C730FC526B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */,
+				1C730FCE26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */,
+				1C730FD426B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */,
+				1C730FDA26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */,
+				1C730FBC26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */,
 				1CFBA8A226A7EAA0001EA830 /* Main.storyboard in Resources */,
+				1C730FAD26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */,
+				1C730FC826B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */,
+				1C730FAA26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */,
+				1C730FBF26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */,
+				1C730FB026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */,
+				1C730FB926B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +363,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C730FD226B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */,
+				1C730FB126B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */,
+				1C730FBD26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */,
+				1C730FD526B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */,
+				1C730FD826B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */,
+				1C730FA826B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */,
+				1C730FC026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */,
+				1C730FAE26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */,
+				1C730FBA26B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */,
+				1C730FDB26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */,
+				1C730FCF26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */,
+				1C730FC326B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */,
+				1C730FCC26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */,
+				1C730FB726B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */,
+				1C730FB426B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */,
+				1C730FAB26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */,
+				1C730FC926B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */,
+				1C730FC626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +388,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C730FD326B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */,
+				1C730FB226B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */,
+				1C730FBE26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */,
+				1C730FD626B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */,
+				1C730FD926B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */,
+				1C730FA926B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */,
+				1C730FC126B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */,
+				1C730FAF26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */,
+				1C730FBB26B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */,
+				1C730FDC26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */,
+				1C730FD026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */,
+				1C730FC426B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */,
+				1C730FCD26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */,
+				1C730FB826B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */,
+				1C730FB526B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */,
+				1C730FAC26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */,
+				1C730FCA26B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */,
+				1C730FC726B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -119,7 +119,12 @@ struct Shop: getShopNameProtocol{
     }
 }
 
-class ViewController: UIViewController, XMLParserDelegate {
+extension UIColor {
+    static let startColor = #colorLiteral(red: 0, green: 0.1107608194, blue: 1, alpha: 1)
+    static let endColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
+}
+
+class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
 
     var check_title = [String]()
     var enclosure = [String]()
@@ -128,8 +133,40 @@ class ViewController: UIViewController, XMLParserDelegate {
     var shopArray = [[String]]() //全ての合計
     var shopNameTestArray = [String]()//店名検証配列
     
+    @IBOutlet var goSearchButton: UIButton!
+    @IBOutlet weak var textField: UITextField!
+    var pickerView = UIPickerView()
+    var data = ["300m", "500m", "1000m", "2000m", "3000m"]
+    
     override func viewDidLoad() {
 
+        createPickerView()
+            
+        // 角丸で親しみやすく
+        goSearchButton.layer.cornerRadius = goSearchButton.bounds.midY
+        // 押せそうにみえる影
+        goSearchButton.layer.shadowColor = UIColor.startColor.cgColor
+        goSearchButton.layer.shadowOffset = CGSize(width: 0, height: 3)
+        goSearchButton.layer.shadowOpacity = 0.7
+        goSearchButton.layer.shadowRadius = 10
+        
+       
+        // グラデーションで強めのアピール (リサイズ非対応！）
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = goSearchButton.bounds
+        gradientLayer.cornerRadius = goSearchButton.bounds.midY
+        gradientLayer.colors = [UIColor.startColor.cgColor, UIColor.endColor.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 1)
+
+        goSearchButton.layer.insertSublayer(gradientLayer, at: 0)
+        
+        
+
+    }
+    
+    @IBAction func pushedSearchButton(){
+        
         let url: URL = URL(string:"https://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=dd12dcd9670620eb&lat=34.67&lng=135.52&range=5&order=4")!
 
         //Debi's Kitchenテスト用URL(本来は記述しない)
@@ -147,6 +184,7 @@ class ViewController: UIViewController, XMLParserDelegate {
         })
         //タスク開始
         task.resume()
+
     }
     
     //解析_開始時
@@ -245,7 +283,8 @@ class ViewController: UIViewController, XMLParserDelegate {
 
     //解析_終了時
     func parserDidEndDocument(_ parser: XMLParser) {
-
+        UserDefaults.standard.set(shopArray, forKey: "shopArray")
+        UserDefaults.standard.synchronize()
         print("Ended Xml Reading")
     }
     
@@ -253,10 +292,41 @@ class ViewController: UIViewController, XMLParserDelegate {
     func parser(_ parser: XMLParser, parseErrorOccurred parseError: Error) {
         print("エラー:" + parseError.localizedDescription)
     }
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
 
-    @IBAction func goNext(){
-        UserDefaults.standard.set(shopArray, forKey: "shopArray")
-        UserDefaults.standard.synchronize()
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return 5
+    }
+
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return data[row]
+    }
+
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        textField.text = data[row]
+    }
+
+
+    func createPickerView() {
+        pickerView.delegate = self
+        textField.inputView = pickerView
+        // toolbar
+        let toolbar = UIToolbar()
+        toolbar.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 44)
+        let doneButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(ViewController.donePicker))
+        toolbar.setItems([doneButtonItem], animated: true)
+        textField.inputAccessoryView = toolbar
+    }
+
+    @objc func donePicker() {
+        textField.endEditing(true)
+    }
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        textField.endEditing(true)
     }
     
 }
