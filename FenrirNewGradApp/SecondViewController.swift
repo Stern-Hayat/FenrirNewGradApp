@@ -11,11 +11,9 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         super.viewDidLoad()
         shopListTableView.delegate = self
         shopListTableView.dataSource = self
-        
         shopList = UserDefaults.standard.value(forKey: "shopArray") as! [[String]]
-
+        print(shopList)
     }
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return shopList.count

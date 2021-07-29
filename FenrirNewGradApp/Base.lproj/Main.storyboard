@@ -29,7 +29,6 @@
                                 </state>
                                 <connections>
                                     <action selector="pushedSearchButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="iCX-Zi-pDS"/>
-                                    <segue destination="b8Z-NE-S08" kind="show" id="25y-qL-VcM"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="近くのお店を調へ&quot;る" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WU8-51-CIk">
@@ -52,7 +51,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="8UT-SU-a5l"/>
                     <connections>
-                        <outlet property="goSearchButton" destination="csF-u0-d80" id="d3D-DU-ik3"/>
+                        <outlet property="goSearchButton" destination="csF-u0-d80" id="8jK-7n-2YA"/>
                         <outlet property="textField" destination="GH0-vG-gdw" id="HSd-Pa-lb3"/>
                     </connections>
                 </viewController>
@@ -63,7 +62,7 @@
         <!--Second View Controller-->
         <scene sceneID="glU-JV-bXL">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="currentContext" id="b8Z-NE-S08" customClass="SecondViewController" customModule="FenrirNewGradApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="next" modalTransitionStyle="crossDissolve" modalPresentationStyle="currentContext" id="b8Z-NE-S08" customClass="SecondViewController" customModule="FenrirNewGradApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dwS-Po-n2X">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,7 +88,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="AgD-4q-bB4"/>
                     <connections>
-                        <outlet property="shopListTableView" destination="Eks-Gq-cKG" id="BCJ-qO-f8m"/>
+                        <outlet property="shopListTableView" destination="Eks-Gq-cKG" id="xjk-6f-lCa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9uM-5h-QMY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
