@@ -157,6 +157,8 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
         locationManager.delegate = self
         locationManager!.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
+        
+        
 
         createPickerView()
             
@@ -181,6 +183,11 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
     }
     
     @IBAction func pushedSearchButton(){
+        
+        if UserDefaults.standard.value(forKey: "shopArray") != nil {
+            UserDefaults.standard.setValue(nil, forKey: "shopArray")
+            UserDefaults.standard.synchronize()
+        }
         
         
         let searchDistance = UserDefaults.standard.value(forKey: "saveSearchFieldDistance") as? String
@@ -279,7 +286,9 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
                 
             case "close":
                 product.shopClosingTime = string
-              
+            
+            case "l":
+                product.shopMobileImage = string
                 //店名改行バグへの対応
                 if shopNameTestArray.count > 9 {
                     let valid = shopNameTestArray.count - 9
@@ -298,10 +307,6 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
                 //閉店時間，予算，収容人数，キャッツ，Web，id，電話番号
                 shopNameTestArray.removeAll()
                 print("================================")
-                
-            case "s":
-                product.shopMobileImage = string
-                
             default:
                 break
             }

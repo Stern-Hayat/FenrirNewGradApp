@@ -1,0 +1,6 @@
+framework module Pods_FenrirNewGradApp_FenrirNewGradAppUITests {
+  umbrella header "Pods-FenrirNewGradApp-FenrirNewGradAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

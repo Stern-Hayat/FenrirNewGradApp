@@ -3,66 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ABC600AEEB856A7CC361939 /* Pods_FenrirNewGradAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D626BC4CEF3708E4C336A6 /* Pods_FenrirNewGradAppTests.framework */; };
 		1C730F9326AC28F000CC5907 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C730F9226AC28EF00CC5907 /* SecondViewController.swift */; };
-		1C730FA726B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */; };
-		1C730FA826B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */; };
-		1C730FA926B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */; };
-		1C730FAA26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */; };
-		1C730FAB26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */; };
-		1C730FAC26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */; };
-		1C730FAD26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */; };
-		1C730FAE26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */; };
-		1C730FAF26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */; };
-		1C730FB026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */; };
-		1C730FB126B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */; };
-		1C730FB226B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */; };
-		1C730FB326B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */; };
-		1C730FB426B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */; };
-		1C730FB526B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */; };
-		1C730FB626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */; };
-		1C730FB726B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */; };
-		1C730FB826B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */; };
-		1C730FB926B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */; };
-		1C730FBA26B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */; };
-		1C730FBB26B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */; };
-		1C730FBC26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */; };
-		1C730FBD26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */; };
-		1C730FBE26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */; };
-		1C730FBF26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */; };
-		1C730FC026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */; };
-		1C730FC126B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */; };
-		1C730FC226B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */; };
-		1C730FC326B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */; };
-		1C730FC426B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */; };
-		1C730FC526B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */; };
-		1C730FC626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */; };
-		1C730FC726B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */; };
-		1C730FC826B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */; };
-		1C730FC926B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */; };
-		1C730FCA26B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */; };
-		1C730FCB26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */; };
-		1C730FCC26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */; };
-		1C730FCD26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */; };
-		1C730FCE26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */; };
-		1C730FCF26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */; };
-		1C730FD026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */; };
-		1C730FD126B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */; };
-		1C730FD226B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */; };
-		1C730FD326B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */; };
-		1C730FD426B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */; };
-		1C730FD526B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */; };
-		1C730FD626B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */; };
-		1C730FD726B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */; };
-		1C730FD826B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */; };
-		1C730FD926B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */; };
-		1C730FDA26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */; };
-		1C730FDB26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */; };
-		1C730FDC26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */; };
 		1C92805D26B2A3B8009F79BD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C92805C26B2A3B8009F79BD /* CoreLocation.framework */; };
+		1CA40CD426B5124700D1BC23 /* ShopListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA40CD226B5124700D1BC23 /* ShopListTableViewCell.swift */; };
+		1CA40CD526B5124700D1BC23 /* ShopListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA40CD326B5124700D1BC23 /* ShopListTableViewCell.xib */; };
 		1CFBA89B26A7EAA0001EA830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */; };
 		1CFBA89D26A7EAA0001EA830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */; };
 		1CFBA89F26A7EAA0001EA830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89E26A7EAA0001EA830 /* ViewController.swift */; };
@@ -72,6 +21,8 @@
 		1CFBA8AA26A7EAA4001EA830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBA8A826A7EAA4001EA830 /* LaunchScreen.storyboard */; };
 		1CFBA8B526A7EAA5001EA830 /* FenrirNewGradAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA8B426A7EAA5001EA830 /* FenrirNewGradAppTests.swift */; };
 		1CFBA8C026A7EAA5001EA830 /* FenrirNewGradAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA8BF26A7EAA5001EA830 /* FenrirNewGradAppUITests.swift */; };
+		3558F8E7B354C5AB38799C88 /* Pods_FenrirNewGradApp_FenrirNewGradAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F1413A9CA3B71C6C1AEC66 /* Pods_FenrirNewGradApp_FenrirNewGradAppUITests.framework */; };
+		506033B1FF7E299A3CA7A4F9 /* Pods_FenrirNewGradApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7348D3CED456409025F49B7 /* Pods_FenrirNewGradApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,26 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01ADD06AEF2852524E621D90 /* Pods-FenrirNewGradApp-FenrirNewGradAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirNewGradApp-FenrirNewGradAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FenrirNewGradApp-FenrirNewGradAppUITests/Pods-FenrirNewGradApp-FenrirNewGradAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		02D626BC4CEF3708E4C336A6 /* Pods_FenrirNewGradAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FenrirNewGradAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		139C4D511F361D42C565A44E /* Pods-FenrirNewGradApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirNewGradApp.debug.xcconfig"; path = "Target Support Files/Pods-FenrirNewGradApp/Pods-FenrirNewGradApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1C730F9226AC28EF00CC5907 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-04M.TTF"; sourceTree = "<group>"; };
-		1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-05M.TTF"; sourceTree = "<group>"; };
-		1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-06M.TTF"; sourceTree = "<group>"; };
-		1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-03M.TTF"; sourceTree = "<group>"; };
-		1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-06M.TTF"; sourceTree = "<group>"; };
-		1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-02M.TTF"; sourceTree = "<group>"; };
-		1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-07M.TTF"; sourceTree = "<group>"; };
-		1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-09M.TTF"; sourceTree = "<group>"; };
-		1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-04M.TTF"; sourceTree = "<group>"; };
-		1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-05M.TTF"; sourceTree = "<group>"; };
-		1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-07M.TTF"; sourceTree = "<group>"; };
-		1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-02M.TTF"; sourceTree = "<group>"; };
-		1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-09M.TTF"; sourceTree = "<group>"; };
-		1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-01M.TTF"; sourceTree = "<group>"; };
-		1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-01M.TTF"; sourceTree = "<group>"; };
-		1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-03M.TTF"; sourceTree = "<group>"; };
-		1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaSeikyo-08M.TTF"; sourceTree = "<group>"; };
-		1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NitalagoRuikaMonoSeikyo-08M.TTF"; sourceTree = "<group>"; };
 		1C92805C26B2A3B8009F79BD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1CA40CD226B5124700D1BC23 /* ShopListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListTableViewCell.swift; sourceTree = "<group>"; };
+		1CA40CD326B5124700D1BC23 /* ShopListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopListTableViewCell.xib; sourceTree = "<group>"; };
 		1CFBA89726A7EAA0001EA830 /* FenrirNewGradApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenrirNewGradApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +65,12 @@
 		1CFBA8BB26A7EAA5001EA830 /* FenrirNewGradAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenrirNewGradAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFBA8BF26A7EAA5001EA830 /* FenrirNewGradAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenrirNewGradAppUITests.swift; sourceTree = "<group>"; };
 		1CFBA8C126A7EAA5001EA830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F1413A9CA3B71C6C1AEC66 /* Pods_FenrirNewGradApp_FenrirNewGradAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FenrirNewGradApp_FenrirNewGradAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65ED959FBA04CA9500C12C18 /* Pods-FenrirNewGradApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirNewGradApp.release.xcconfig"; path = "Target Support Files/Pods-FenrirNewGradApp/Pods-FenrirNewGradApp.release.xcconfig"; sourceTree = "<group>"; };
+		9A3BCE9712FB87346D47C310 /* Pods-FenrirNewGradAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirNewGradAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FenrirNewGradAppTests/Pods-FenrirNewGradAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7348D3CED456409025F49B7 /* Pods_FenrirNewGradApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FenrirNewGradApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66A48BEEA3ABB5CEA021F29 /* Pods-FenrirNewGradApp-FenrirNewGradAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirNewGradApp-FenrirNewGradAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FenrirNewGradApp-FenrirNewGradAppUITests/Pods-FenrirNewGradApp-FenrirNewGradAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF64D7C760F92D7F3531157E /* Pods-FenrirNewGradAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirNewGradAppTests.release.xcconfig"; path = "Target Support Files/Pods-FenrirNewGradAppTests/Pods-FenrirNewGradAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C92805D26B2A3B8009F79BD /* CoreLocation.framework in Frameworks */,
+				506033B1FF7E299A3CA7A4F9 /* Pods_FenrirNewGradApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABC600AEEB856A7CC361939 /* Pods_FenrirNewGradAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,41 +95,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3558F8E7B354C5AB38799C88 /* Pods_FenrirNewGradApp_FenrirNewGradAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C730F9426B2631900CC5907 /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				1C730FA226B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF */,
-				1C730F9A26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF */,
-				1C730F9826B2634900CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF */,
-				1C730F9D26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF */,
-				1C730F9E26B2634900CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF */,
-				1C730F9926B2634900CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF */,
-				1C730F9F26B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF */,
-				1C730FA626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF */,
-				1C730FA126B2634A00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF */,
-				1C730FA326B2634A00CC5907 /* NitalagoRuikaSeikyo-01M.TTF */,
-				1C730FA026B2634A00CC5907 /* NitalagoRuikaSeikyo-02M.TTF */,
-				1C730FA426B2634B00CC5907 /* NitalagoRuikaSeikyo-03M.TTF */,
-				1C730F9526B2634900CC5907 /* NitalagoRuikaSeikyo-04M.TTF */,
-				1C730F9626B2634900CC5907 /* NitalagoRuikaSeikyo-05M.TTF */,
-				1C730F9726B2634900CC5907 /* NitalagoRuikaSeikyo-06M.TTF */,
-				1C730F9B26B2634900CC5907 /* NitalagoRuikaSeikyo-07M.TTF */,
-				1C730FA526B2634C00CC5907 /* NitalagoRuikaSeikyo-08M.TTF */,
-				1C730F9C26B2634900CC5907 /* NitalagoRuikaSeikyo-09M.TTF */,
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
 		1C92805B26B2A3B8009F79BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				1C92805C26B2A3B8009F79BD /* CoreLocation.framework */,
+				A7348D3CED456409025F49B7 /* Pods_FenrirNewGradApp.framework */,
+				40F1413A9CA3B71C6C1AEC66 /* Pods_FenrirNewGradApp_FenrirNewGradAppUITests.framework */,
+				02D626BC4CEF3708E4C336A6 /* Pods_FenrirNewGradAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,12 +116,12 @@
 		1CFBA88E26A7EAA0001EA830 = {
 			isa = PBXGroup;
 			children = (
-				1C730F9426B2631900CC5907 /* fonts */,
 				1CFBA89926A7EAA0001EA830 /* FenrirNewGradApp */,
 				1CFBA8B326A7EAA5001EA830 /* FenrirNewGradAppTests */,
 				1CFBA8BE26A7EAA5001EA830 /* FenrirNewGradAppUITests */,
 				1CFBA89826A7EAA0001EA830 /* Products */,
 				1C92805B26B2A3B8009F79BD /* Frameworks */,
+				CC0B8BDFD0800AFFE97A9661 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,6 +147,8 @@
 				1CFBA8A826A7EAA4001EA830 /* LaunchScreen.storyboard */,
 				1CFBA8AB26A7EAA4001EA830 /* Info.plist */,
 				1CFBA8A326A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodeld */,
+				1CA40CD226B5124700D1BC23 /* ShopListTableViewCell.swift */,
+				1CA40CD326B5124700D1BC23 /* ShopListTableViewCell.xib */,
 			);
 			path = FenrirNewGradApp;
 			sourceTree = "<group>";
@@ -244,6 +171,19 @@
 			path = FenrirNewGradAppUITests;
 			sourceTree = "<group>";
 		};
+		CC0B8BDFD0800AFFE97A9661 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				139C4D511F361D42C565A44E /* Pods-FenrirNewGradApp.debug.xcconfig */,
+				65ED959FBA04CA9500C12C18 /* Pods-FenrirNewGradApp.release.xcconfig */,
+				01ADD06AEF2852524E621D90 /* Pods-FenrirNewGradApp-FenrirNewGradAppUITests.debug.xcconfig */,
+				F66A48BEEA3ABB5CEA021F29 /* Pods-FenrirNewGradApp-FenrirNewGradAppUITests.release.xcconfig */,
+				9A3BCE9712FB87346D47C310 /* Pods-FenrirNewGradAppTests.debug.xcconfig */,
+				FF64D7C760F92D7F3531157E /* Pods-FenrirNewGradAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFBA8C426A7EAA5001EA830 /* Build configuration list for PBXNativeTarget "FenrirNewGradApp" */;
 			buildPhases = (
+				446C490500AAD72F5A265DED /* [CP] Check Pods Manifest.lock */,
 				1CFBA89326A7EAA0001EA830 /* Sources */,
 				1CFBA89426A7EAA0001EA830 /* Frameworks */,
 				1CFBA89526A7EAA0001EA830 /* Resources */,
+				813DD98015EEDE7659706D69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFBA8C726A7EAA5001EA830 /* Build configuration list for PBXNativeTarget "FenrirNewGradAppTests" */;
 			buildPhases = (
+				632D3E7A60DF14C9F9B94003 /* [CP] Check Pods Manifest.lock */,
 				1CFBA8AC26A7EAA5001EA830 /* Sources */,
 				1CFBA8AD26A7EAA5001EA830 /* Frameworks */,
 				1CFBA8AE26A7EAA5001EA830 /* Resources */,
@@ -286,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFBA8CA26A7EAA5001EA830 /* Build configuration list for PBXNativeTarget "FenrirNewGradAppUITests" */;
 			buildPhases = (
+				8254BB5AAC50E7BBF7093957 /* [CP] Check Pods Manifest.lock */,
 				1CFBA8B726A7EAA5001EA830 /* Sources */,
 				1CFBA8B826A7EAA5001EA830 /* Frameworks */,
 				1CFBA8B926A7EAA5001EA830 /* Resources */,
+				EA0E23E4D77B98AE340A193A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -347,27 +292,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C730FB626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */,
-				1C730FA726B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */,
 				1CFBA8AA26A7EAA4001EA830 /* LaunchScreen.storyboard in Resources */,
-				1C730FD126B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */,
-				1C730FD726B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */,
-				1C730FC226B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */,
 				1CFBA8A726A7EAA4001EA830 /* Assets.xcassets in Resources */,
-				1C730FB326B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */,
-				1C730FCB26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */,
-				1C730FC526B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */,
-				1C730FCE26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */,
-				1C730FD426B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */,
-				1C730FDA26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */,
-				1C730FBC26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */,
 				1CFBA8A226A7EAA0001EA830 /* Main.storyboard in Resources */,
-				1C730FAD26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */,
-				1C730FC826B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */,
-				1C730FAA26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */,
-				1C730FBF26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */,
-				1C730FB026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */,
-				1C730FB926B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */,
+				1CA40CD526B5124700D1BC23 /* ShopListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,24 +303,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C730FD226B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */,
-				1C730FB126B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */,
-				1C730FBD26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */,
-				1C730FD526B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */,
-				1C730FD826B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */,
-				1C730FA826B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */,
-				1C730FC026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */,
-				1C730FAE26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */,
-				1C730FBA26B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */,
-				1C730FDB26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */,
-				1C730FCF26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */,
-				1C730FC326B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */,
-				1C730FCC26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */,
-				1C730FB726B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */,
-				1C730FB426B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */,
-				1C730FAB26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */,
-				1C730FC926B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */,
-				1C730FC626B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,28 +310,113 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C730FD326B2634D00CC5907 /* NitalagoRuikaSeikyo-01M.TTF in Resources */,
-				1C730FB226B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-03M.TTF in Resources */,
-				1C730FBE26B2634D00CC5907 /* NitalagoRuikaSeikyo-09M.TTF in Resources */,
-				1C730FD626B2634D00CC5907 /* NitalagoRuikaSeikyo-03M.TTF in Resources */,
-				1C730FD926B2634D00CC5907 /* NitalagoRuikaSeikyo-08M.TTF in Resources */,
-				1C730FA926B2634D00CC5907 /* NitalagoRuikaSeikyo-04M.TTF in Resources */,
-				1C730FC126B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-04M.TTF in Resources */,
-				1C730FAF26B2634D00CC5907 /* NitalagoRuikaSeikyo-06M.TTF in Resources */,
-				1C730FBB26B2634D00CC5907 /* NitalagoRuikaSeikyo-07M.TTF in Resources */,
-				1C730FDC26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-08M.TTF in Resources */,
-				1C730FD026B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-01M.TTF in Resources */,
-				1C730FC426B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-05M.TTF in Resources */,
-				1C730FCD26B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-09M.TTF in Resources */,
-				1C730FB826B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-02M.TTF in Resources */,
-				1C730FB526B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-06M.TTF in Resources */,
-				1C730FAC26B2634D00CC5907 /* NitalagoRuikaSeikyo-05M.TTF in Resources */,
-				1C730FCA26B2634D00CC5907 /* NitalagoRuikaSeikyo-02M.TTF in Resources */,
-				1C730FC726B2634D00CC5907 /* NitalagoRuikaMonoSeikyo-07M.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		446C490500AAD72F5A265DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FenrirNewGradApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		632D3E7A60DF14C9F9B94003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FenrirNewGradAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		813DD98015EEDE7659706D69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenrirNewGradApp/Pods-FenrirNewGradApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenrirNewGradApp/Pods-FenrirNewGradApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FenrirNewGradApp/Pods-FenrirNewGradApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8254BB5AAC50E7BBF7093957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FenrirNewGradApp-FenrirNewGradAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0E23E4D77B98AE340A193A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenrirNewGradApp-FenrirNewGradAppUITests/Pods-FenrirNewGradApp-FenrirNewGradAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenrirNewGradApp-FenrirNewGradAppUITests/Pods-FenrirNewGradApp-FenrirNewGradAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FenrirNewGradApp-FenrirNewGradAppUITests/Pods-FenrirNewGradApp-FenrirNewGradAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1CFBA89326A7EAA0001EA830 /* Sources */ = {
@@ -429,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFBA8A526A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodeld in Sources */,
+				1CA40CD426B5124700D1BC23 /* ShopListTableViewCell.swift in Sources */,
 				1CFBA89F26A7EAA0001EA830 /* ViewController.swift in Sources */,
 				1CFBA89B26A7EAA0001EA830 /* AppDelegate.swift in Sources */,
 				1C730F9326AC28F000CC5907 /* SecondViewController.swift in Sources */,
@@ -605,6 +601,7 @@
 		};
 		1CFBA8C526A7EAA5001EA830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139C4D511F361D42C565A44E /* Pods-FenrirNewGradApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -624,6 +621,7 @@
 		};
 		1CFBA8C626A7EAA5001EA830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65ED959FBA04CA9500C12C18 /* Pods-FenrirNewGradApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -643,6 +641,7 @@
 		};
 		1CFBA8C826A7EAA5001EA830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3BCE9712FB87346D47C310 /* Pods-FenrirNewGradAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -665,6 +664,7 @@
 		};
 		1CFBA8C926A7EAA5001EA830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF64D7C760F92D7F3531157E /* Pods-FenrirNewGradAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -687,6 +687,7 @@
 		};
 		1CFBA8CB26A7EAA5001EA830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01ADD06AEF2852524E621D90 /* Pods-FenrirNewGradApp-FenrirNewGradAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -707,6 +708,7 @@
 		};
 		1CFBA8CC26A7EAA5001EA830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66A48BEEA3ABB5CEA021F29 /* Pods-FenrirNewGradApp-FenrirNewGradAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
