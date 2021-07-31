@@ -136,7 +136,7 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
     var product = Shop("", "", "", "", "", "","", "", "","", "", "", "", "","", "")
     var shopArray = [[String]]() //全ての合計
     var shopNameTestArray = [String]()//店名検証配列
-    var range = 1
+    var range: Int!
     
     // 現在地の位置情報の取得にはCLLocationManagerを使用
     var locationManager: CLLocationManager!
@@ -147,19 +147,17 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
     
     @IBOutlet var goSearchButton: UIButton!
     @IBOutlet weak var textField: UITextField!
+    
     var pickerView = UIPickerView()
     var data = ["300m", "500m", "1000m", "2000m", "3000m"]
     
     override func viewDidLoad() {
 
-        
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager!.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
-        my_latitude = locationManager.location?.coordinate.latitude
-        my_longitude = locationManager.location?.coordinate.longitude
-        
+
         createPickerView()
             
         // 角丸で親しみやすく
@@ -170,7 +168,6 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
         goSearchButton.layer.shadowOpacity = 0.7
         goSearchButton.layer.shadowRadius = 10
         
-       
         // グラデーションで強めのアピール (リサイズ非対応！）
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = goSearchButton.bounds
@@ -180,14 +177,12 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
         gradientLayer.endPoint = CGPoint(x: 1, y: 1)
 
         goSearchButton.layer.insertSublayer(gradientLayer, at: 0)
-        
-        
 
     }
     
     @IBAction func pushedSearchButton(){
         
-
+        
         let searchDistance = UserDefaults.standard.value(forKey: "saveSearchFieldDistance") as? String
     
             switch searchDistance {
@@ -204,7 +199,7 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
                 default:
                     break
             }
-            
+        
             //To-do：環境変数にキーを保存しておく
             let url: URL = URL(string:"https://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=dd12dcd9670620eb&lat=" + String(my_latitude) + "&lng=" + String(my_longitude) + "&range=" + String(range) + "&order=4")!
             
@@ -221,17 +216,8 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
                     print("parse error")
                 }
             })
- 
-        
-
-                
-    
             //タスク開始
             task.resume()
-    
-
-        //Debi's Kitchenテスト用URL(本来は記述しない)
-       // let url: URL = URL(string:"https://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=dd12dcd9670620eb&name_kana=%E3%83%87%E3%83%93%E3%82%BA%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3")!
     }
     
     //解析_開始時
@@ -263,7 +249,6 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
                 
             case "name":
                 shopNameTestArray.append(string)
-                print(shopNameTestArray)
 
             case "address":
                 product.shopAddress = string
@@ -307,7 +292,9 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
                     }
                 }
                 
-                shopArray.append([shopNameTestArray[0], shopNameTestArray[6], shopNameTestArray[7], product.shopMobileImage!, product.shopLatitude!, product.shopLongitude!, product.shopAddress!, product.shopOpeningTime!, product.shopMobileAccess!, product.shopClosingTime!, shopNameTestArray[8], product.shopCapacity!, product.shopWebsiteUrl!, product.shopid!, "",])
+                if shopNameTestArray.count != 0 {
+                    shopArray.append([shopNameTestArray[0], shopNameTestArray[6], shopNameTestArray[7], product.shopMobileImage!, product.shopLatitude!, product.shopLongitude!, product.shopAddress!, product.shopOpeningTime!, product.shopMobileAccess!, product.shopClosingTime!, shopNameTestArray[8], product.shopCapacity!, product.shopWebsiteUrl!, product.shopid!, "",])
+                }
                 //閉店時間，予算，収容人数，キャッツ，Web，id，電話番号
                 shopNameTestArray.removeAll()
                 print("================================")
@@ -333,18 +320,11 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
         UserDefaults.standard.set(shopArray, forKey: "shopArray")
         UserDefaults.standard.synchronize()
 
-        
         DispatchQueue.main.async {
             print("presentation completed")
-            let storyboard: UIStoryboard = self.storyboard!
-            let nextView = storyboard.instantiateViewController(withIdentifier: "next") as! SecondViewController
-            self.present(nextView, animated: true, completion: nil)
-            
-
+            self.performSegue(withIdentifier: "goShopListSegue", sender: nil)
         }
-
         print("Ended Xml Reading")
-        //これを1番最後に持ってきたい
     }
     
     //解析_エラー発生時
@@ -371,7 +351,7 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
     func createPickerView() {
         pickerView.delegate = self
         textField.inputView = pickerView
-        // toolbar
+        
         let toolbar = UIToolbar()
         toolbar.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 44)
         let doneButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(ViewController.donePicker))
@@ -379,7 +359,7 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
         textField.inputAccessoryView = toolbar
     }
     
-    func locationManager(_ manager: CLLocationManager,didChangeAuthorization status: CLAuthorizationStatus) {// 許可を求めるためのdelegateメソッド
+    func locationManager(_ manager: CLLocationManager,didChangeAuthorization status: CLAuthorizationStatus) {
             switch status {
                 case .notDetermined:// 許可されてない場合
                     manager.requestWhenInUseAuthorization()// 許可を求める
@@ -398,21 +378,26 @@ class ViewController: UIViewController, XMLParserDelegate, UIPickerViewDelegate,
                     break
             }
         }
-    
-    /* 位置情報取得失敗時に実行される関数 */
-    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
-        // この例ではLogにErrorと表示するだけ．
-        NSLog("Error")
-    }
 
     @objc func donePicker() {
         textField.endEditing(true)
+        UserDefaults.standard.set(textField.text, forKey: "saveSearchFieldDistance")
+        UserDefaults.standard.synchronize()
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         textField.endEditing(true)
-        UserDefaults.standard.setValue(true, forKey: "saveSearchFieldDistance")
+        UserDefaults.standard.set(textField.text, forKey: "saveSearchFieldDistance")
         UserDefaults.standard.synchronize()
+    }
+    
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        NSLog("Error")
+    }
+
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        my_latitude = locationManager.location?.coordinate.latitude
+        my_longitude = locationManager.location?.coordinate.longitude
     }
     
 }
