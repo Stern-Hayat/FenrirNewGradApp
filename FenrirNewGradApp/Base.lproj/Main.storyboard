@@ -62,7 +62,7 @@
                     <navigationItem key="navigationItem" id="8UT-SU-a5l"/>
                     <connections>
                         <outlet property="goSearchButton" destination="csF-u0-d80" id="8jK-7n-2YA"/>
-                        <outlet property="textField" destination="GH0-vG-gdw" id="HSd-Pa-lb3"/>
+                        <outlet property="searchForTextField" destination="GH0-vG-gdw" id="naU-SR-NET"/>
                         <segue destination="b8Z-NE-S08" kind="show" identifier="goShopListSegue" id="oSY-Wg-bkE"/>
                     </connections>
                 </viewController>
