@@ -4,7 +4,6 @@ class ShopListTableViewCell: UITableViewCell {
 
     @IBOutlet var shopNameLabel: UILabel!
     @IBOutlet var shopAccessLabel: UILabel!
-    
     @IBOutlet var shopImageView: UIImageView!
     
     override func awakeFromNib() {
@@ -13,8 +12,5 @@ class ShopListTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-   
     }
-    
 }

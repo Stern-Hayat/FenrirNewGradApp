@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1ABC600AEEB856A7CC361939 /* Pods_FenrirNewGradAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D626BC4CEF3708E4C336A6 /* Pods_FenrirNewGradAppTests.framework */; };
-		1C730F9326AC28F000CC5907 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C730F9226AC28EF00CC5907 /* SecondViewController.swift */; };
+		1C730F9326AC28F000CC5907 /* ShopListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C730F9226AC28EF00CC5907 /* ShopListTableViewController.swift */; };
 		1C92805D26B2A3B8009F79BD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C92805C26B2A3B8009F79BD /* CoreLocation.framework */; };
 		1CA40CD426B5124700D1BC23 /* ShopListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA40CD226B5124700D1BC23 /* ShopListTableViewCell.swift */; };
 		1CA40CD526B5124700D1BC23 /* ShopListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA40CD326B5124700D1BC23 /* ShopListTableViewCell.xib */; };
+		1CA7042F26B5574300877BAB /* ShopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7042E26B5574300877BAB /* ShopDetailViewController.swift */; };
 		1CFBA89B26A7EAA0001EA830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */; };
 		1CFBA89D26A7EAA0001EA830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */; };
 		1CFBA89F26A7EAA0001EA830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA89E26A7EAA0001EA830 /* ViewController.swift */; };
@@ -46,10 +47,11 @@
 		01ADD06AEF2852524E621D90 /* Pods-FenrirNewGradApp-FenrirNewGradAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirNewGradApp-FenrirNewGradAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FenrirNewGradApp-FenrirNewGradAppUITests/Pods-FenrirNewGradApp-FenrirNewGradAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		02D626BC4CEF3708E4C336A6 /* Pods_FenrirNewGradAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FenrirNewGradAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		139C4D511F361D42C565A44E /* Pods-FenrirNewGradApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirNewGradApp.debug.xcconfig"; path = "Target Support Files/Pods-FenrirNewGradApp/Pods-FenrirNewGradApp.debug.xcconfig"; sourceTree = "<group>"; };
-		1C730F9226AC28EF00CC5907 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1C730F9226AC28EF00CC5907 /* ShopListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListTableViewController.swift; sourceTree = "<group>"; };
 		1C92805C26B2A3B8009F79BD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1CA40CD226B5124700D1BC23 /* ShopListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListTableViewCell.swift; sourceTree = "<group>"; };
 		1CA40CD326B5124700D1BC23 /* ShopListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopListTableViewCell.xib; sourceTree = "<group>"; };
+		1CA7042E26B5574300877BAB /* ShopDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailViewController.swift; sourceTree = "<group>"; };
 		1CFBA89726A7EAA0001EA830 /* FenrirNewGradApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenrirNewGradApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,14 +143,15 @@
 				1CFBA89A26A7EAA0001EA830 /* AppDelegate.swift */,
 				1CFBA89C26A7EAA0001EA830 /* SceneDelegate.swift */,
 				1CFBA89E26A7EAA0001EA830 /* ViewController.swift */,
-				1C730F9226AC28EF00CC5907 /* SecondViewController.swift */,
+				1CA40CD226B5124700D1BC23 /* ShopListTableViewCell.swift */,
+				1CA40CD326B5124700D1BC23 /* ShopListTableViewCell.xib */,
+				1C730F9226AC28EF00CC5907 /* ShopListTableViewController.swift */,
+				1CA7042E26B5574300877BAB /* ShopDetailViewController.swift */,
 				1CFBA8A026A7EAA0001EA830 /* Main.storyboard */,
 				1CFBA8A626A7EAA4001EA830 /* Assets.xcassets */,
 				1CFBA8A826A7EAA4001EA830 /* LaunchScreen.storyboard */,
 				1CFBA8AB26A7EAA4001EA830 /* Info.plist */,
 				1CFBA8A326A7EAA0001EA830 /* FenrirNewGradApp.xcdatamodeld */,
-				1CA40CD226B5124700D1BC23 /* ShopListTableViewCell.swift */,
-				1CA40CD326B5124700D1BC23 /* ShopListTableViewCell.xib */,
 			);
 			path = FenrirNewGradApp;
 			sourceTree = "<group>";
@@ -427,7 +430,8 @@
 				1CA40CD426B5124700D1BC23 /* ShopListTableViewCell.swift in Sources */,
 				1CFBA89F26A7EAA0001EA830 /* ViewController.swift in Sources */,
 				1CFBA89B26A7EAA0001EA830 /* AppDelegate.swift in Sources */,
-				1C730F9326AC28F000CC5907 /* SecondViewController.swift in Sources */,
+				1CA7042F26B5574300877BAB /* ShopDetailViewController.swift in Sources */,
+				1C730F9326AC28F000CC5907 /* ShopListTableViewController.swift in Sources */,
 				1CFBA89D26A7EAA0001EA830 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
